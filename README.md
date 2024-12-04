@@ -63,7 +63,7 @@ cp -r /afs/ir/users/a/k/akashr/public/matsci331/Si ./
 cd Si
 ```
 
-The foulder `Si` has 2 important inputs. The pseudopotential file, `Si.pz-vbc.UPF` and the input file for the scf cycle. `si.scf.in`
+The folder `Si` has 2 important inputs. The pseudopotential file, `Si.pz-vbc.UPF` and the input file for the scf cycle. `si.scf.in`
 
 Take a look at `si.scf.in`
 
