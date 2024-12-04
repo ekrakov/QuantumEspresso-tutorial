@@ -58,7 +58,7 @@ cd matsci331
 
 The inputs for Si are setup already :). To get them, run 
 
-```
+```bash
 cp -r /afs/ir/users/a/k/akashr/public/matsci331/Si ./
 cd Si
 ```
