@@ -9,7 +9,8 @@ open your bashrc with your preffered text editor (emacs)
 
 Add the following lines 
 
-```export PATH="/afs/ir/users/a/k/akashr/public/matsci331/exec/bin/:$PATH
+```
+export PATH="/afs/ir/users/a/k/akashr/public/matsci331/exec/bin/:$PATH
 
 ml intel
 ml load openmpi
