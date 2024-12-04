@@ -47,3 +47,22 @@ to apply these changes, run
 ```bash
 source ~/.bashrc
 ```
+Now that this is set up, lets get the files we need to run caluclations for Si.
+
+First, make a directory to run all these calculations
+
+```bash
+mkdir matsci331
+cd matsci331
+```
+
+The inputs for Si are setup already :). To get them, run 
+
+```
+cp -r /afs/ir/users/a/k/akashr/public/matsci331/Si ./
+cd Si
+```
+
+
+
+
