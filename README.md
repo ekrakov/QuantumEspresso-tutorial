@@ -56,10 +56,18 @@ mkdir matsci331
 cd matsci331
 ```
 
-The inputs for Si are setup already :). To get them, run 
+Now, lets setup an initial folder for our Si calculations 
 
 ```bash
-cp -r /afs/ir/users/a/k/akashr/public/matsci331/Si ./
+mkdir Si_calcs
+cd Si_calcs
+```
+
+
+The inputs for Si are setup already :). We will copy them into an initial directory 
+
+```bash
+cp -r /afs/ir/users/a/k/akashr/public/matsci331/Si Si_init
 cd Si
 ```
 
