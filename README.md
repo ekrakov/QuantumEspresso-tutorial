@@ -69,7 +69,9 @@ Take a look at `si.scf.in`
 
 ```bash
 cat si.scf.in
+```
 
+```
 &CONTROL
   title = 'Silicon bulk',
   calculation = 'scf',
@@ -100,7 +102,6 @@ ATOMIC_POSITIONS
    Si      0.250000000    0.250000000    0.250000000    1  1  1
 K_POINTS automatic
   8 8 8 0 0 0
-
 ```
 
 
