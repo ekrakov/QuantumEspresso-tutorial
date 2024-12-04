@@ -2,7 +2,7 @@
 QE intro for MATSCI 331 
 ## Getting on to Rice 
 To access rice, run 
-```
+```bash
 ssh <SUNetID>@rice.stanford.edu
 ```
 
@@ -12,7 +12,7 @@ Instead of typing this every time, it is easier to alias this command in your ba
 emacs ~/.bashrc
 ```
 
-```
+```bash
 alias rice='ssh <SUNetID>@rice.stanford.edu'                                                                                          
 ```
 to apply these changes, run 
