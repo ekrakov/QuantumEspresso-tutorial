@@ -63,6 +63,48 @@ cp -r /afs/ir/users/a/k/akashr/public/matsci331/Si ./
 cd Si
 ```
 
+The foulder `Si` has 2 important inputs. The pseudopotential file, `Si.pz-vbc.UPF` and the input file for the scf cycle. `si.scf.in`
+
+Take a look at `si.scf.in`
+
+```bash
+cat si.scf.in
+
+&CONTROL
+  title = 'Silicon bulk',
+  calculation = 'scf',
+  restart_mode = 'from_scratch',
+  outdir = 'tmp',
+  pseudo_dir = './',
+  prefix = 'silicon',
+  tstress = .true.,
+  tprnfor = .true.,
+/
+&SYSTEM
+  ibrav = 2,
+  celldm(1) = 11.1,
+  nat = 2,
+  ntyp = 1,
+  ecutwfc = 18.0 ,
+/
+&ELECTRONS
+  conv_thr = 1.0d-8 ,
+  mixing_mode = 'plain' ,
+  mixing_beta = 0.7 ,
+  diagonalization = 'david' ,
+/
+ATOMIC_SPECIES
+   Si   28.08600  Si.pz-vbc.UPF 
+ATOMIC_POSITIONS 
+   Si      0.000000000    0.000000000    0.000000000    1  1  1 
+   Si      0.250000000    0.250000000    0.250000000    1  1  1
+K_POINTS automatic
+  8 8 8 0 0 0
+
+```
+
+
+
 
 
 
