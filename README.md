@@ -49,7 +49,7 @@ source ~/.bashrc
 ```
 Now that this is set up, lets get the files we need to run caluclations for Si.
 
-First, make a directory to run all these calculations
+First, make a directory to run all calculations related to Si
 
 ```bash
 mkdir matsci331
