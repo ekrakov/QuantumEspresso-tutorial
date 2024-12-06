@@ -1,6 +1,6 @@
 # QuantumEspresso-tutorial
 QE intro for MATSCI 331 
-## Getting on to Rice 
+## Getting on  Rice 
 To access rice, run 
 ```bash
 ssh <SUNetID>@rice.stanford.edu
