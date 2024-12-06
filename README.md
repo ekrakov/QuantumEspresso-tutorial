@@ -5,23 +5,19 @@ To access rice, run
 ```bash
 ssh <SUNetID>@rice.stanford.edu
 ```
+Instead of typing the full command every time, you can create an alias in your `.bashrc` file for convenience.
 
-Instead of typing this every time, it is easier to alias this command in your bashrc 
-
-```bash
 emacs ~/.bashrc
-```
 
-```bash
-alias rice='ssh <SUNetID>@rice.stanford.edu'                                                                                          
-```
-to apply these changes, run 
+Add the following alias to the file:
 
-```bash
+alias rice='ssh <SUNetID>@rice.stanford.edu'
+
+Save and close the file. Then, apply the changes by running:
+
 source ~/.bashrc
-```
 
-Now, you can access rice by by simply typing `rice` in your command line. 
+Now, you can access the `rice` server simply by typing `rice` in your command line.
 
 ## Setup 
 
