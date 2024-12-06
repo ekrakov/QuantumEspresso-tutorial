@@ -112,8 +112,10 @@ K_POINTS automatic
   8 8 8 0 0 0
 ```
 
+## Run run run 
 
 In order to run Quantum Espresso type 
+
 
 ```bash
 pw.x < si.scf.in | tee si.scf.out
