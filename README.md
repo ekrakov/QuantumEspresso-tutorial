@@ -113,7 +113,11 @@ K_POINTS automatic
 ```
 
 
+In order to run Quantum Espresso type 
 
-
+```bash
+pw.x < si.scf.in | tee si.scf.out
+```
+in your the command line. Make sure you are in the `Si` folder. Since we exported the path containing `pw.x`, it is no longer necessary to type the entire path. 
 
 
