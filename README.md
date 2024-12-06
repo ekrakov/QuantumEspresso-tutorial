@@ -25,7 +25,7 @@ Now, you can access rice by by simply typing `rice` in your command line.
 
 ## Setup 
 
-open your bashrc with your preffered text editor (emacs)
+open your bashrc with your preferred text editor (emacs)
 
 ```bash
 emacs ~/.bashrc
