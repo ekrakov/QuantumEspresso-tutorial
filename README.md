@@ -64,7 +64,7 @@ cd Si_calcs
 ```
 
 
-The inputs for Si are setup already :). We will copy them into an initial directory 
+The inputs for Si are setup already. We will copy them into an initial directory 
 
 ```bash
 cp -r /afs/ir/users/a/k/akashr/public/matsci331/Si Si_init
