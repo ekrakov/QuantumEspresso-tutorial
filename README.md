@@ -114,7 +114,7 @@ K_POINTS automatic
   8 8 8 0 0 0
 ```
 
-## Run run run 
+## Run  
 
 In order to run Quantum Espresso type 
 
@@ -124,4 +124,5 @@ pw.x < si.scf.in | tee si.scf.out
 ```
 in your the command line. Make sure you are in the `Si` folder. Since we exported the path containing `pw.x`, it is no longer necessary to type the entire path. 
 
+The final results are outputted in `si.scf.out`. 
 
